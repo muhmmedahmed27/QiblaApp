@@ -27,10 +27,8 @@ public class Active_InactiveActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_active_inactive);
-
         connections();
         clicks();
-
     }
 
     private void clicks() {
@@ -44,11 +42,7 @@ public class Active_InactiveActivity extends AppCompatActivity {
         circle_cardview.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-//vibration
                 Vibrator v = (Vibrator) getSystemService(Context.VIBRATOR_SERVICE);
-//                Vibrator mVibrator = (Vibrator)getSystemService(Context.VIBRATOR_SERVICE);
-
-// Vibrate for 500 milliseconds
                 if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
 //                    v.vibrate(VibrationEffect.createOneShot(500, VibrationEffect.DEFAULT_AMPLITUDE));
 //                    Log.d("wow123", "onClick: O");
