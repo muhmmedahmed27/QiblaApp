@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/QiblaApp/app/src/main/res/drawable-v24/gradient_bg1.xml" value="0.108" />
+        <entry key="..\:/QiblaApp/app/src/main/res/drawable/gradient_animationlist123.xml" value="0.108" />
+        <entry key="..\:/QiblaApp/app/src/main/res/drawable/gradient_bg1.xml" value="0.108" />
+        <entry key="..\:/QiblaApp/app/src/main/res/drawable/gradient_bg2.xml" value="0.108" />
+        <entry key="..\:/QiblaApp/app/src/main/res/drawable/gradient_bg3.xml" value="0.108" />
+        <entry key="..\:/QiblaApp/app/src/main/res/layout/activity_active_inactive.xml" value="0.2" />
+        <entry key="..\:/QiblaApp/app/src/main/res/layout/activity_language.xml" value="0.2962962962962963" />
+        <entry key="..\:/QiblaApp/app/src/main/res/layout/activity_main.xml" value="0.37344398340248963" />
+        <entry key="..\:/QiblaApp/app/src/main/res/layout/activity_splash.xml" value="0.25" />
+        <entry key="..\:/QiblaApp/app/src/main/res/layout/langauge_itemview.xml" value="0.5" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

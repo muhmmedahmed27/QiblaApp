@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">QiblaApp</string>
+    <string name="qibla_finder">Buscador de alquibla</string>
+    <string name="qibla_direction">Dirección de Qibla</string>
+    <string name="inactive">Inactiva</string>
+    <string name="active">Activa</string>
+    <string name="description">Habilitar esta opción vibrará y resaltará la flecha cuando el teléfono esté directamente frente a esta Qibla</string>
+    <string name="select_your_language">Elige tu idioma</string>
+
+</resources>

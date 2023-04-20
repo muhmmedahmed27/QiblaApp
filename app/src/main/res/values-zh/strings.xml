@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">QiblaApp</string>
+    <string name="qibla_finder">朝拜查找器</string>
+    <string name="qibla_direction">朝拜方向</string>
+    <string name="inactive">無效</string>
+    <string name="active">積極的</string>
+    <string name="description">當手機正對朝拜時，啟用此選項會振動並突出顯示箭頭</string>
+    <string name="select_your_language">選擇你的語言</string>
+
+</resources>

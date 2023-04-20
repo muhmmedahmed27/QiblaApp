@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">QiblaApp</string>
+    <string name="qibla_finder">مكتشف القبلة</string>
+    <string name="qibla_direction">اتجاه القبلة</string>
+    <string name="inactive">غير نشط</string>
+    <string name="active">نشيط</string>
+    <string name="description">تفعيل هذا الخيار سيهتز ويسلط الضوء على السهم عندما يكون الهاتف في مواجهة القبلة مباشرة</string>
+    <string name="select_your_language">اختر لغتك</string>
+
+</resources>

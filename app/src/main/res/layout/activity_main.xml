@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/brown_wallpaper"
+    tools:context=".activities.MainActivity">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/g1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.8" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/toolbar_constraint"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:alpha="0.2"
+        android:background="@color/black"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:text="@string/qibla_finder"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="@id/toolbar_constraint"
+        app:layout_constraintLeft_toLeftOf="@id/toolbar_constraint"
+        app:layout_constraintTop_toTopOf="@id/toolbar_constraint" />
+
+    <ImageView
+        android:id="@+id/flag_image"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginRight="16dp"
+        android:src="@drawable/language_icon"
+        app:layout_constraintBottom_toBottomOf="@id/toolbar_constraint"
+        app:layout_constraintRight_toRightOf="@id/toolbar_constraint"
+        app:layout_constraintTop_toTopOf="@id/toolbar_constraint" />
+
+    <TextView
+        android:id="@+id/city_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="24dp"
+        android:textColor="@color/white"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/toolbar_constraint" />
+
+
+    <TextView
+        android:id="@+id/slash_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="24dp"
+        android:text="/"
+        android:textColor="@color/white"
+        app:layout_constraintLeft_toRightOf="@id/city_text"
+        app:layout_constraintTop_toBottomOf="@id/toolbar_constraint" />
+
+
+    <TextView
+        android:id="@+id/country_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="24dp"
+        android:textColor="@color/white"
+        app:layout_constraintLeft_toRightOf="@id/slash_text"
+        app:layout_constraintTop_toBottomOf="@id/toolbar_constraint" />
+
+    <TextView
+        android:id="@+id/degree_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:text="0&#x2103;"
+        android:textColor="@color/white"
+        app:layout_constraintLeft_toLeftOf="@id/city_text"
+        app:layout_constraintTop_toBottomOf="@id/city_text" />
+
+    <ImageView
+        android:id="@+id/arrow"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/arrow_white_new"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/degree_text" />
+
+    <TextView
+        android:id="@+id/qibla_direction_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/qibla_direction"
+        android:textColor="@color/white"
+        app:layout_constraintLeft_toLeftOf="@id/arrow"
+        app:layout_constraintRight_toRightOf="@id/arrow"
+        app:layout_constraintTop_toBottomOf="@id/arrow" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/animation"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/toolbar_constraint"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/lottie"
+        app:lottie_url="REPLACE_JSON_URL" />
+
+    <FrameLayout
+        android:layout_width="260dp"
+        android:layout_height="260dp"
+        app:layout_constraintBottom_toTopOf="@id/feb"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ImageView
+            android:id="@+id/campus_img1"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:src="@drawable/golden_compuss_real2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <ImageView
+            android:id="@+id/kaba_image"
+            android:layout_width="260dp"
+            android:layout_height="260dp"
+            android:src="@drawable/kaba"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+    </FrameLayout>
+
+    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+        android:id="@+id/feb"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_margin="16dp"
+        android:backgroundTint="#D57941"
+        app:icon="@drawable/vibration_icon"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/g1" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">QiblaApp</string>
+    <string name="qibla_finder">Qibla Finder</string>
+    <string name="qibla_direction">Qibla Direction</string>
+    <string name="inactive">Inactive</string>
+    <string name="active">Active</string>
+    <string name="description">Enabling this option will vibrate and highlights the arrow when the phone is directly facing this Qibla</string>
+    <string name="select_your_language">Select Your Language</string>
+
+</resources>
